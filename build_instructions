@@ -1,0 +1,12 @@
+# Spark Instruction:
+sbt/sbt compile "run --executor-memory 4g --driver-memory 10g"
+
+This project was developed like our Spark homeworks in class. SBT should be the only requirement.
+
+# Machine Learning Instructions
+python project_predictive_modeling.py
+python project_my_model.py
+
+I used python 2.7. The models will need the results of the spark job.
+
+The spark job will generate an spark_output folder. These are the results.
